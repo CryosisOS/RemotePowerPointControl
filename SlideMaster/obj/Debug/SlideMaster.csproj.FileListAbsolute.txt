@@ -1,0 +1,8 @@
+S:\Programming\Personal\Projects\Church\PresentationEndPoint\SlideMaster\bin\Debug\SlideMaster.pdb
+S:\Programming\Personal\Projects\Church\PresentationEndPoint\SlideMaster\obj\Debug\SlideMaster.csprojAssemblyReference.cache
+S:\Programming\Personal\Projects\Church\PresentationEndPoint\SlideMaster\obj\Debug\SlideMaster.csproj.ResolveComReference.cache
+S:\Programming\Personal\Projects\Church\PresentationEndPoint\SlideMaster\obj\Debug\SlideMaster.csproj.CoreCompileInputs.cache
+S:\Programming\Personal\Projects\Church\PresentationEndPoint\SlideMaster\obj\Debug\SlideMaster.pdb
+S:\Programming\Personal\Projects\Church\PresentationEndPoint\SlideMaster\bin\Debug\SlideMaster.dll.config
+S:\Programming\Personal\Projects\Church\PresentationEndPoint\SlideMaster\bin\Debug\SlideMaster.dll
+S:\Programming\Personal\Projects\Church\PresentationEndPoint\SlideMaster\obj\Debug\SlideMaster.dll
