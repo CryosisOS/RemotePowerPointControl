@@ -174,3 +174,4 @@ C:\Users\Sound Desk Admin\Source\Repos\RemotePowerPointControl\WebServer\obj\Deb
 C:\Users\Sound Desk Admin\Source\Repos\RemotePowerPointControl\WebServer\obj\Debug\WebServer.csproj.CopyComplete
 C:\Users\Sound Desk Admin\Source\Repos\RemotePowerPointControl\WebServer\obj\Debug\WebServer.dll
 C:\Users\Sound Desk Admin\Source\Repos\RemotePowerPointControl\WebServer\obj\Debug\WebServer.pdb
+C:\Users\Sound Desk Admin\Source\Repos\RemotePowerPointControl\WebServer\obj\Debug\WebServer.csproj.ResolveComReference.cache

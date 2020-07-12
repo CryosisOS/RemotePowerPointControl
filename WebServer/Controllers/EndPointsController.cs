@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Web.Http;
 using SlideMaster;
 using SlideMaster_Models;
@@ -8,7 +9,9 @@ namespace WebServer.Controllers {
     public class EndPointsController : ApiController {
         [HttpPost]
         public IHttpActionResult RefreshApplicationEndPoint() {
+            Debug.WriteLine("I got here");
             if (LocalSystem.GetOpenPpt(WebApiApplication.CONFIGURATION)) {
+                Debug.WriteLine("Problem in if statement");
                 return Ok();
             }
             return NotFound();

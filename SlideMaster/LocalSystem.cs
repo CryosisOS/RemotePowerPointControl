@@ -3,6 +3,7 @@ using System.Runtime.InteropServices;
 using Microsoft.Office.Interop.PowerPoint;
 using System.Collections.Generic;
 using SlideMaster_Models;
+using System;
 
 namespace SlideMaster {
 
@@ -16,7 +17,7 @@ namespace SlideMaster {
             }
             catch
             {
-                //Nothing to put in here
+                
             }
             if (config.pptApplication != null)
             {
