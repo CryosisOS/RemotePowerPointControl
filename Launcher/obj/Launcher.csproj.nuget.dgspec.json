@@ -1,0 +1,93 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Sound Desk Admin\\Source\\Repos\\RemotePowerPointControl\\Launcher\\Launcher.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Sound Desk Admin\\Source\\Repos\\RemotePowerPointControl\\Launcher\\Launcher.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Sound Desk Admin\\Source\\Repos\\RemotePowerPointControl\\Launcher\\Launcher.csproj",
+        "projectName": "Launcher",
+        "projectPath": "C:\\Users\\Sound Desk Admin\\Source\\Repos\\RemotePowerPointControl\\Launcher\\Launcher.csproj",
+        "packagesPath": "C:\\Users\\Sound Desk Admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Sound Desk Admin\\Source\\Repos\\RemotePowerPointControl\\Launcher\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Sound Desk Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\Sound Desk Admin\\Source\\Repos\\RemotePowerPointControl\\WebServer\\WebServer.csproj": {
+                "projectPath": "C:\\Users\\Sound Desk Admin\\Source\\Repos\\RemotePowerPointControl\\WebServer\\WebServer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Sound Desk Admin\\Source\\Repos\\RemotePowerPointControl\\SlideMaster\\SlideMaster.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Sound Desk Admin\\Source\\Repos\\RemotePowerPointControl\\SlideMaster\\SlideMaster.csproj",
+        "projectName": "SlideMaster",
+        "projectPath": "C:\\Users\\Sound Desk Admin\\Source\\Repos\\RemotePowerPointControl\\SlideMaster\\SlideMaster.csproj"
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\Sound Desk Admin\\Source\\Repos\\RemotePowerPointControl\\WebServer\\WebServer.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Sound Desk Admin\\Source\\Repos\\RemotePowerPointControl\\WebServer\\WebServer.csproj",
+        "projectName": "WebServer",
+        "projectPath": "C:\\Users\\Sound Desk Admin\\Source\\Repos\\RemotePowerPointControl\\WebServer\\WebServer.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\Users\\Sound Desk Admin\\Source\\Repos\\RemotePowerPointControl\\SlideMaster\\SlideMaster.csproj": {
+                "projectPath": "C:\\Users\\Sound Desk Admin\\Source\\Repos\\RemotePowerPointControl\\SlideMaster\\SlideMaster.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    }
+  }
+}

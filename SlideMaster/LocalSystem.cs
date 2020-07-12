@@ -10,13 +10,16 @@ namespace SlideMaster {
     public class LocalSystem {
         public static bool GetOpenPpt(Config config) {
             bool success = false;
-            try {
-                config.pptApplication = Marshal.GetActiveObject("PowerPoint.Application") as PowerPoint.Application;
+            try
+            {
+                config.pptApplication = Marshal.GetActiveObject("PowerPoint.Application") as Microsoft.Office.Interop.PowerPoint.Application;
             }
-            catch {
+            catch
+            {
                 //Nothing to put in here
             }
-            if(config.pptApplication != null) {
+            if (config.pptApplication != null)
+            {
                 success = true;
             }
             return success;

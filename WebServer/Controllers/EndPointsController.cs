@@ -16,6 +16,10 @@ namespace WebServer.Controllers {
 
         [HttpGet]
         public IHttpActionResult GetPresentations() {
+            if (!LocalSystem.GetOpenPpt(WebApiApplication.CONFIGURATION))
+            {
+                return NotFound();
+            }
             IList<Presentation> presentations = null;
             presentations = LocalSystem.GetPresentationList(WebApiApplication.CONFIGURATION);
             //The list contained 0 items

@@ -5,3 +5,10 @@ S:\Programming\Personal\Projects\Church\PresentationEndPoint\SlideMaster\obj\Rel
 S:\Programming\Personal\Projects\Church\PresentationEndPoint\SlideMaster\obj\Release\SlideMaster.csproj.CoreCompileInputs.cache
 S:\Programming\Personal\Projects\Church\PresentationEndPoint\SlideMaster\obj\Release\SlideMaster.dll
 S:\Programming\Personal\Projects\Church\PresentationEndPoint\SlideMaster\obj\Release\SlideMaster.pdb
+C:\Users\Sound Desk Admin\Source\Repos\RemotePowerPointControl\SlideMaster\bin\Release\SlideMaster.dll.config
+C:\Users\Sound Desk Admin\Source\Repos\RemotePowerPointControl\SlideMaster\bin\Release\SlideMaster.dll
+C:\Users\Sound Desk Admin\Source\Repos\RemotePowerPointControl\SlideMaster\bin\Release\SlideMaster.pdb
+C:\Users\Sound Desk Admin\Source\Repos\RemotePowerPointControl\SlideMaster\obj\Release\SlideMaster.csproj.ResolveComReference.cache
+C:\Users\Sound Desk Admin\Source\Repos\RemotePowerPointControl\SlideMaster\obj\Release\SlideMaster.csproj.CoreCompileInputs.cache
+C:\Users\Sound Desk Admin\Source\Repos\RemotePowerPointControl\SlideMaster\obj\Release\SlideMaster.dll
+C:\Users\Sound Desk Admin\Source\Repos\RemotePowerPointControl\SlideMaster\obj\Release\SlideMaster.pdb

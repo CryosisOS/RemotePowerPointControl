@@ -1,0 +1,11 @@
+C:\Users\Sound Desk Admin\Source\Repos\RemotePowerPointControl\TestingPowerPointControl\obj\Debug\TestingPowerPointControl.csproj.CoreCompileInputs.cache
+C:\Users\Sound Desk Admin\Source\Repos\RemotePowerPointControl\TestingPowerPointControl\obj\Debug\TestingPowerPointControl.csproj.ResolveComReference.cache
+C:\Users\Sound Desk Admin\Source\Repos\RemotePowerPointControl\TestingPowerPointControl\bin\Debug\TestingPowerPointControl.exe.config
+C:\Users\Sound Desk Admin\Source\Repos\RemotePowerPointControl\TestingPowerPointControl\bin\Debug\TestingPowerPointControl.exe
+C:\Users\Sound Desk Admin\Source\Repos\RemotePowerPointControl\TestingPowerPointControl\bin\Debug\TestingPowerPointControl.pdb
+C:\Users\Sound Desk Admin\Source\Repos\RemotePowerPointControl\TestingPowerPointControl\bin\Debug\SlideMaster.dll
+C:\Users\Sound Desk Admin\Source\Repos\RemotePowerPointControl\TestingPowerPointControl\bin\Debug\SlideMaster.pdb
+C:\Users\Sound Desk Admin\Source\Repos\RemotePowerPointControl\TestingPowerPointControl\bin\Debug\SlideMaster.dll.config
+C:\Users\Sound Desk Admin\Source\Repos\RemotePowerPointControl\TestingPowerPointControl\obj\Debug\TestingPowerPointControl.csproj.CopyComplete
+C:\Users\Sound Desk Admin\Source\Repos\RemotePowerPointControl\TestingPowerPointControl\obj\Debug\TestingPowerPointControl.exe
+C:\Users\Sound Desk Admin\Source\Repos\RemotePowerPointControl\TestingPowerPointControl\obj\Debug\TestingPowerPointControl.pdb

@@ -6,3 +6,11 @@ S:\Programming\Personal\Projects\Church\PresentationEndPoint\SlideMaster\obj\Deb
 S:\Programming\Personal\Projects\Church\PresentationEndPoint\SlideMaster\bin\Debug\SlideMaster.dll.config
 S:\Programming\Personal\Projects\Church\PresentationEndPoint\SlideMaster\bin\Debug\SlideMaster.dll
 S:\Programming\Personal\Projects\Church\PresentationEndPoint\SlideMaster\obj\Debug\SlideMaster.dll
+C:\Users\Sound Desk Admin\Source\Repos\RemotePowerPointControl\SlideMaster\bin\Debug\SlideMaster.dll.config
+C:\Users\Sound Desk Admin\Source\Repos\RemotePowerPointControl\SlideMaster\bin\Debug\SlideMaster.dll
+C:\Users\Sound Desk Admin\Source\Repos\RemotePowerPointControl\SlideMaster\bin\Debug\SlideMaster.pdb
+C:\Users\Sound Desk Admin\Source\Repos\RemotePowerPointControl\SlideMaster\obj\Debug\SlideMaster.csprojAssemblyReference.cache
+C:\Users\Sound Desk Admin\Source\Repos\RemotePowerPointControl\SlideMaster\obj\Debug\SlideMaster.csproj.ResolveComReference.cache
+C:\Users\Sound Desk Admin\Source\Repos\RemotePowerPointControl\SlideMaster\obj\Debug\SlideMaster.csproj.CoreCompileInputs.cache
+C:\Users\Sound Desk Admin\Source\Repos\RemotePowerPointControl\SlideMaster\obj\Debug\SlideMaster.dll
+C:\Users\Sound Desk Admin\Source\Repos\RemotePowerPointControl\SlideMaster\obj\Debug\SlideMaster.pdb
