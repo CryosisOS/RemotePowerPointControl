@@ -50,9 +50,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\SlideMaster\SlideMaster.csproj">
+    <ProjectReference Include="..\SlideMaster\PowerPointHook.csproj">
       <Project>{4e47d581-8b67-403a-b363-786165033999}</Project>
-      <Name>SlideMaster</Name>
+      <Name>PowerPointHook</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

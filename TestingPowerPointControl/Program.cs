@@ -11,7 +11,7 @@ namespace TestingPowerPointControl
         static Config config = new Config();
         static void Main(string[] args)
         {
-            GetOpenPpt();
+            Console.WriteLine(GetOpenPpt());
             Console.WriteLine("Application Found!");
 
             foreach (DocumentWindow window in config.pptApplication.Windows)
@@ -29,9 +29,11 @@ namespace TestingPowerPointControl
             {
                 config.pptApplication = Marshal.GetActiveObject("PowerPoint.Application") as Microsoft.Office.Interop.PowerPoint.Application;
             }
-            catch
+            catch(System.Runtime.InteropServices.COMException ex)
             {
-                //Nothing to put in here
+                Console.WriteLine(ex.Message);
+                Console.WriteLine(ex.StackTrace);
+                System.Diagnostics.Debug.WriteLine("Nothing here");
             }
             if (config.pptApplication != null)
             {

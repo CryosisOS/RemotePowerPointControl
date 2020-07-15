@@ -1,0 +1,8 @@
+S:\Programming\Personal\Projects\Church\PresentationEndPoint\SlideMaster\bin\Debug\PowerPointHook.dll.config
+S:\Programming\Personal\Projects\Church\PresentationEndPoint\SlideMaster\bin\Debug\PowerPointHook.dll
+S:\Programming\Personal\Projects\Church\PresentationEndPoint\SlideMaster\bin\Debug\PowerPointHook.pdb
+S:\Programming\Personal\Projects\Church\PresentationEndPoint\SlideMaster\obj\Debug\PowerPointHook.csprojAssemblyReference.cache
+S:\Programming\Personal\Projects\Church\PresentationEndPoint\SlideMaster\obj\Debug\PowerPointHook.csproj.ResolveComReference.cache
+S:\Programming\Personal\Projects\Church\PresentationEndPoint\SlideMaster\obj\Debug\PowerPointHook.csproj.CoreCompileInputs.cache
+S:\Programming\Personal\Projects\Church\PresentationEndPoint\SlideMaster\obj\Debug\PowerPointHook.dll
+S:\Programming\Personal\Projects\Church\PresentationEndPoint\SlideMaster\obj\Debug\PowerPointHook.pdb
