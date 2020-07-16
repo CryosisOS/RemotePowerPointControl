@@ -16,14 +16,20 @@ namespace PowerPointCreator {
         private void ok_button_Click(object sender, EventArgs e) {
             RadioButton chosen = this.panel1.Controls.OfType<RadioButton>().FirstOrDefault(r => r.Checked);
             if (chosen.Name.Equals(this.Generate_radioButton.Name)) {
-
+                //Start SelectionForm
             }
             else if(chosen.Name.Equals(this.Existing_radioButton.Name)){
                 OpenFileDialog fileChooser = GetFileChooser("Browse for Presentation");
                 DialogResult result = fileChooser.ShowDialog();
                 if (result == DialogResult.OK) {
-                    var application = PowerPointControl.CreatePowerPointApplication();
-                    PowerPointControl.StartExistingPresentation(ref application, fileChooser.FileName);
+                    //Open PowerPoint with the existing presentation
+                    Program.REF_APPLICATION = PowerPointControl.OpenPowerPointApplication();
+                    Program.REF_PRESENTATION = PowerPointControl.StartExistingPresentation(ref Program.REF_APPLICATION, fileChooser.FileName);
+                    SlideShowObserver observer = new SlideShowObserver(ref Program.REF_APPLICATION, ref Program.REF_PRESENTATION);
+                    //Start API
+                    API.Register();
+                    //Hide window
+                    WindowState = FormWindowState.Minimized;
                 }
             }
             else {
@@ -55,7 +61,7 @@ namespace PowerPointCreator {
         }
 
         private void MainForm_Load(object sender, EventArgs e) {
-            trayIcon.BalloonTipText = "Application Minimized.";
+            trayIcon.BalloonTipText = "Application window active.";
         }
     }
 }

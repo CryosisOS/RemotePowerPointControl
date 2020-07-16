@@ -3,7 +3,7 @@ using PowerPointHook_Models;
 
 namespace PowerPointHook {
     public class PowerPointControl {
-        public static Microsoft.Office.Interop.PowerPoint.Application CreatePowerPointApplication() {
+        public static Microsoft.Office.Interop.PowerPoint.Application OpenPowerPointApplication() {
             return new Microsoft.Office.Interop.PowerPoint.Application();
         }
 
@@ -20,9 +20,9 @@ namespace PowerPointHook {
             presentation.SaveAs(filename);
         }
 
-        public static void StartExistingPresentation(
+        public static Microsoft.Office.Interop.PowerPoint.Presentation StartExistingPresentation(
             ref Microsoft.Office.Interop.PowerPoint.Application application, string filename) {
-            application.Presentations.Open(filename, MsoTriState.msoFalse, MsoTriState.msoTrue, MsoTriState.msoTrue);
+            return application.Presentations.Open(filename, MsoTriState.msoFalse, MsoTriState.msoTrue, MsoTriState.msoTrue);
         }
     }
 }

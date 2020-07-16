@@ -9,35 +9,9 @@ namespace PowerPointHook {
 
 
     public class SlideShowControl {
-        public static bool GetOpenPpt(Config config) {
-            bool success = false;
-            try
-            {
-                config.pptApplication = Marshal.GetActiveObject("PowerPoint.Application") as Microsoft.Office.Interop.PowerPoint.Application;
-            }
-            catch
-            {
-                
-            }
-            if (config.pptApplication != null)
-            {
-                success = true;
-            }
-            return success;
-        }
-
-        public static List<PowerPointHook_Models.Presentation> GetPresentationList(Config config) {
-            int count = 0;
-            List<PowerPointHook_Models.Presentation> presentations = new List<PowerPointHook_Models.Presentation>();
-            foreach (DocumentWindow window in config.pptApplication.Windows) {
-                presentations.Add(new PowerPointHook_Models.Presentation { _choice = ++count, _name = window.Caption });
-            }
-            return presentations;
-        }
-
-        public static bool SelectPresentation(Config config, PowerPointHook_Models.Presentation presentationChoice) {
+        public static bool StartPresentation(ref PowerPoint.Presentation presentation) {
             try {
-                config.presentation = config.pptApplication.Windows[presentationChoice._choice].Presentation;
+                presentation.SlideShowSettings.Run();
                 return true;
             }
             catch {
@@ -45,10 +19,9 @@ namespace PowerPointHook {
             }
         }
 
-
-        public static bool StartPresentation(Config config) {
+        public static bool EndPresentation(ref PowerPoint.Presentation presentation) {
             try {
-                config.presentation.SlideShowSettings.Run();
+                presentation.SlideShowWindow.View.Exit();
                 return true;
             }
             catch {
@@ -56,9 +29,9 @@ namespace PowerPointHook {
             }
         }
 
-        public static bool EndPresentation(Config config) {
+        public static bool NextSlide(ref PowerPoint.Presentation presentation) {
             try {
-                config.pptApplication.SlideShowWindows[1].View.Exit();
+                presentation.SlideShowWindow.View.Next();
                 return true;
             }
             catch {
@@ -66,19 +39,9 @@ namespace PowerPointHook {
             }
         }
 
-        public static bool NextSlide(Config config) {
+        public static bool PreviousSlide(ref PowerPoint.Presentation presentation) {
             try {
-                config.presentation.SlideShowWindow.View.Next();
-                return true;
-            }
-            catch {
-                return false;
-            }
-        }
-
-        public static bool PreviousSlide(Config config) {
-            try {
-                config.presentation.SlideShowWindow.View.Previous();
+                presentation.SlideShowWindow.View.Previous();
                 return true;
             }
             catch {

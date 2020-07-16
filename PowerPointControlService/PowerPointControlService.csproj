@@ -75,7 +75,7 @@
   <ItemGroup>
     <Compile Include="ActionController.cs" />
     <Compile Include="PowerPointInteraction.cs" />
-    <Compile Include="RegisterAPI.cs" />
+    <Compile Include="API.cs" />
     <Compile Include="PowerPointControl.cs">
       <SubType>Component</SubType>
     </Compile>

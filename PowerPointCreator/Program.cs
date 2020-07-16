@@ -9,6 +9,10 @@ using System.Windows.Forms;
 
 namespace PowerPointCreator {
     static class Program {
+        //GLOBAL REFERENCES
+        public static Microsoft.Office.Interop.PowerPoint.Application REF_APPLICATION;
+        public static Microsoft.Office.Interop.PowerPoint.Presentation REF_PRESENTATION;
+
         static private MainForm mainForm;
         internal class config {
             public readonly BrowsingSettings BROWSING_SETTINGS;

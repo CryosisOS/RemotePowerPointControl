@@ -18,7 +18,7 @@ namespace PowerPointControlService {
         /// </summary>
         static void Main(string [] args) {
             string baseAddress = "http://localhost:9000/";
-            WebApp.Start<RegisterAPI>(url: baseAddress);
+            WebApp.Start<API>(url: baseAddress);
             //using (WebApp.Start<RegisterAPI>(url: baseAddress)) {
             //    // Create HttpClient and make a request to api/values 
             //    HttpClient client = new HttpClient();
