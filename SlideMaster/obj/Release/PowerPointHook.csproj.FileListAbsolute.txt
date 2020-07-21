@@ -6,3 +6,11 @@ S:\Programming\Personal\Projects\Church\PresentationEndPoint\SlideMaster\obj\Rel
 S:\Programming\Personal\Projects\Church\PresentationEndPoint\SlideMaster\obj\Release\PowerPointHook.dll
 S:\Programming\Personal\Projects\Church\PresentationEndPoint\SlideMaster\obj\Release\PowerPointHook.pdb
 S:\Programming\Personal\Projects\Church\PresentationEndPoint\SlideMaster\obj\Release\PowerPointHook.csprojAssemblyReference.cache
+C:\Users\Sound Desk Admin\Source\Repos\RemotePowerPointControl\SlideMaster\bin\Release\PowerPointHook.dll.config
+C:\Users\Sound Desk Admin\Source\Repos\RemotePowerPointControl\SlideMaster\bin\Release\PowerPointHook.dll
+C:\Users\Sound Desk Admin\Source\Repos\RemotePowerPointControl\SlideMaster\bin\Release\PowerPointHook.pdb
+C:\Users\Sound Desk Admin\Source\Repos\RemotePowerPointControl\SlideMaster\obj\Release\PowerPointHook.csprojAssemblyReference.cache
+C:\Users\Sound Desk Admin\Source\Repos\RemotePowerPointControl\SlideMaster\obj\Release\PowerPointHook.csproj.ResolveComReference.cache
+C:\Users\Sound Desk Admin\Source\Repos\RemotePowerPointControl\SlideMaster\obj\Release\PowerPointHook.csproj.CoreCompileInputs.cache
+C:\Users\Sound Desk Admin\Source\Repos\RemotePowerPointControl\SlideMaster\obj\Release\PowerPointHook.dll
+C:\Users\Sound Desk Admin\Source\Repos\RemotePowerPointControl\SlideMaster\obj\Release\PowerPointHook.pdb

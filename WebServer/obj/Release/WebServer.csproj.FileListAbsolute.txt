@@ -54,7 +54,6 @@ C:\Users\Sound Desk Admin\Source\Repos\RemotePowerPointControl\WebServer\bin\Ant
 C:\Users\Sound Desk Admin\Source\Repos\RemotePowerPointControl\WebServer\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 C:\Users\Sound Desk Admin\Source\Repos\RemotePowerPointControl\WebServer\bin\Microsoft.Web.Infrastructure.dll
 C:\Users\Sound Desk Admin\Source\Repos\RemotePowerPointControl\WebServer\bin\Newtonsoft.Json.dll
-C:\Users\Sound Desk Admin\Source\Repos\RemotePowerPointControl\WebServer\bin\SlideMaster.dll
 C:\Users\Sound Desk Admin\Source\Repos\RemotePowerPointControl\WebServer\bin\System.Net.Http.Formatting.dll
 C:\Users\Sound Desk Admin\Source\Repos\RemotePowerPointControl\WebServer\bin\System.Web.Helpers.dll
 C:\Users\Sound Desk Admin\Source\Repos\RemotePowerPointControl\WebServer\bin\System.Web.Http.dll
@@ -66,8 +65,6 @@ C:\Users\Sound Desk Admin\Source\Repos\RemotePowerPointControl\WebServer\bin\Sys
 C:\Users\Sound Desk Admin\Source\Repos\RemotePowerPointControl\WebServer\bin\System.Web.WebPages.dll
 C:\Users\Sound Desk Admin\Source\Repos\RemotePowerPointControl\WebServer\bin\System.Web.WebPages.Razor.dll
 C:\Users\Sound Desk Admin\Source\Repos\RemotePowerPointControl\WebServer\bin\WebGrease.dll
-C:\Users\Sound Desk Admin\Source\Repos\RemotePowerPointControl\WebServer\bin\SlideMaster.pdb
-C:\Users\Sound Desk Admin\Source\Repos\RemotePowerPointControl\WebServer\bin\SlideMaster.dll.config
 C:\Users\Sound Desk Admin\Source\Repos\RemotePowerPointControl\WebServer\bin\Newtonsoft.Json.xml
 C:\Users\Sound Desk Admin\Source\Repos\RemotePowerPointControl\WebServer\bin\System.Net.Http.Formatting.xml
 C:\Users\Sound Desk Admin\Source\Repos\RemotePowerPointControl\WebServer\bin\System.Web.Helpers.xml
@@ -175,3 +172,9 @@ S:\Programming\Personal\Projects\Church\PresentationEndPoint\WebServer\obj\Relea
 S:\Programming\Personal\Projects\Church\PresentationEndPoint\WebServer\obj\Release\WebServer.csproj.CopyComplete
 S:\Programming\Personal\Projects\Church\PresentationEndPoint\WebServer\obj\Release\WebServer.dll
 S:\Programming\Personal\Projects\Church\PresentationEndPoint\WebServer\obj\Release\WebServer.pdb
+C:\Users\Sound Desk Admin\Source\Repos\RemotePowerPointControl\WebServer\bin\PowerPointHook.dll
+C:\Users\Sound Desk Admin\Source\Repos\RemotePowerPointControl\WebServer\bin\RestSharp.dll
+C:\Users\Sound Desk Admin\Source\Repos\RemotePowerPointControl\WebServer\bin\PowerPointHook.pdb
+C:\Users\Sound Desk Admin\Source\Repos\RemotePowerPointControl\WebServer\bin\PowerPointHook.dll.config
+C:\Users\Sound Desk Admin\Source\Repos\RemotePowerPointControl\WebServer\bin\RestSharp.xml
+C:\Users\Sound Desk Admin\Source\Repos\RemotePowerPointControl\WebServer\obj\Release\WebServer.csproj.ResolveComReference.cache

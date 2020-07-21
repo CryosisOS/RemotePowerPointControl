@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <sitemanifest>
-  <IisApp path="S:\Programming\Personal\Projects\Church\PresentationEndPoint\WebServer\obj\Release\Package\PackageTmp" />
-  <setAcl path="S:\Programming\Personal\Projects\Church\PresentationEndPoint\WebServer\obj\Release\Package\PackageTmp" setAclResourceType="Directory" />
-  <setAcl path="S:\Programming\Personal\Projects\Church\PresentationEndPoint\WebServer\obj\Release\Package\PackageTmp" setAclUser="anonymousAuthenticationUser" setAclResourceType="Directory" />
+  <IisApp path="C:\Users\Sound Desk Admin\Source\Repos\RemotePowerPointControl\WebServer\obj\Release\Package\PackageTmp" />
+  <setAcl path="C:\Users\Sound Desk Admin\Source\Repos\RemotePowerPointControl\WebServer\obj\Release\Package\PackageTmp" setAclResourceType="Directory" />
+  <setAcl path="C:\Users\Sound Desk Admin\Source\Repos\RemotePowerPointControl\WebServer\obj\Release\Package\PackageTmp" setAclUser="anonymousAuthenticationUser" setAclResourceType="Directory" />
 </sitemanifest>

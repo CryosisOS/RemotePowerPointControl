@@ -32,3 +32,37 @@ S:\Programming\Personal\Projects\Church\PresentationEndPoint\PowerPointCreator\b
 S:\Programming\Personal\Projects\Church\PresentationEndPoint\PowerPointCreator\bin\Debug\System.Net.Http.Formatting.xml
 S:\Programming\Personal\Projects\Church\PresentationEndPoint\PowerPointCreator\bin\Debug\System.Web.Http.xml
 S:\Programming\Personal\Projects\Church\PresentationEndPoint\PowerPointCreator\bin\Debug\System.Web.Http.Owin.xml
+C:\Users\Sound Desk Admin\Source\Repos\RemotePowerPointControl\PowerPointCreator\bin\Debug\Resources\graphics\icon.ico
+C:\Users\Sound Desk Admin\Source\Repos\RemotePowerPointControl\PowerPointCreator\bin\Debug\Resources\graphics\icon.jpg
+C:\Users\Sound Desk Admin\Source\Repos\RemotePowerPointControl\PowerPointCreator\bin\Debug\Resources\configurations\browsing_settings.json
+C:\Users\Sound Desk Admin\Source\Repos\RemotePowerPointControl\PowerPointCreator\bin\Debug\PowerPointCreator.exe.config
+C:\Users\Sound Desk Admin\Source\Repos\RemotePowerPointControl\PowerPointCreator\bin\Debug\PowerPointCreator.exe
+C:\Users\Sound Desk Admin\Source\Repos\RemotePowerPointControl\PowerPointCreator\bin\Debug\PowerPointCreator.pdb
+C:\Users\Sound Desk Admin\Source\Repos\RemotePowerPointControl\PowerPointCreator\bin\Debug\Microsoft.Owin.dll
+C:\Users\Sound Desk Admin\Source\Repos\RemotePowerPointControl\PowerPointCreator\bin\Debug\Microsoft.Owin.Host.HttpListener.dll
+C:\Users\Sound Desk Admin\Source\Repos\RemotePowerPointControl\PowerPointCreator\bin\Debug\Microsoft.Owin.Hosting.dll
+C:\Users\Sound Desk Admin\Source\Repos\RemotePowerPointControl\PowerPointCreator\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Sound Desk Admin\Source\Repos\RemotePowerPointControl\PowerPointCreator\bin\Debug\Owin.dll
+C:\Users\Sound Desk Admin\Source\Repos\RemotePowerPointControl\PowerPointCreator\bin\Debug\PowerPointHook.dll
+C:\Users\Sound Desk Admin\Source\Repos\RemotePowerPointControl\PowerPointCreator\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\Sound Desk Admin\Source\Repos\RemotePowerPointControl\PowerPointCreator\bin\Debug\System.Web.Http.dll
+C:\Users\Sound Desk Admin\Source\Repos\RemotePowerPointControl\PowerPointCreator\bin\Debug\System.Web.Http.Owin.dll
+C:\Users\Sound Desk Admin\Source\Repos\RemotePowerPointControl\PowerPointCreator\bin\Debug\PowerPointHook.pdb
+C:\Users\Sound Desk Admin\Source\Repos\RemotePowerPointControl\PowerPointCreator\bin\Debug\PowerPointHook.dll.config
+C:\Users\Sound Desk Admin\Source\Repos\RemotePowerPointControl\PowerPointCreator\bin\Debug\Microsoft.Owin.xml
+C:\Users\Sound Desk Admin\Source\Repos\RemotePowerPointControl\PowerPointCreator\bin\Debug\Microsoft.Owin.Host.HttpListener.xml
+C:\Users\Sound Desk Admin\Source\Repos\RemotePowerPointControl\PowerPointCreator\bin\Debug\Microsoft.Owin.Hosting.xml
+C:\Users\Sound Desk Admin\Source\Repos\RemotePowerPointControl\PowerPointCreator\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Sound Desk Admin\Source\Repos\RemotePowerPointControl\PowerPointCreator\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\Sound Desk Admin\Source\Repos\RemotePowerPointControl\PowerPointCreator\bin\Debug\System.Web.Http.xml
+C:\Users\Sound Desk Admin\Source\Repos\RemotePowerPointControl\PowerPointCreator\bin\Debug\System.Web.Http.Owin.xml
+C:\Users\Sound Desk Admin\Source\Repos\RemotePowerPointControl\PowerPointCreator\obj\Debug\PowerPointCreator.csprojAssemblyReference.cache
+C:\Users\Sound Desk Admin\Source\Repos\RemotePowerPointControl\PowerPointCreator\obj\Debug\PowerPointCreator.csproj.ResolveComReference.cache
+C:\Users\Sound Desk Admin\Source\Repos\RemotePowerPointControl\PowerPointCreator\obj\Debug\PowerPointCreator.SelectionForm.resources
+C:\Users\Sound Desk Admin\Source\Repos\RemotePowerPointControl\PowerPointCreator\obj\Debug\PowerPointCreator.MainForm.resources
+C:\Users\Sound Desk Admin\Source\Repos\RemotePowerPointControl\PowerPointCreator\obj\Debug\PowerPointCreator.Properties.Resources.resources
+C:\Users\Sound Desk Admin\Source\Repos\RemotePowerPointControl\PowerPointCreator\obj\Debug\PowerPointCreator.csproj.GenerateResource.cache
+C:\Users\Sound Desk Admin\Source\Repos\RemotePowerPointControl\PowerPointCreator\obj\Debug\PowerPointCreator.csproj.CoreCompileInputs.cache
+C:\Users\Sound Desk Admin\Source\Repos\RemotePowerPointControl\PowerPointCreator\obj\Debug\PowerPointCreator.csproj.CopyComplete
+C:\Users\Sound Desk Admin\Source\Repos\RemotePowerPointControl\PowerPointCreator\obj\Debug\PowerPointCreator.exe
+C:\Users\Sound Desk Admin\Source\Repos\RemotePowerPointControl\PowerPointCreator\obj\Debug\PowerPointCreator.pdb

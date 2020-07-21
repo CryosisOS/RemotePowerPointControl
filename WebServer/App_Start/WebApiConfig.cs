@@ -13,7 +13,7 @@ namespace WebServer {
 
             config.Routes.MapHttpRoute(
                 name: "DefaultApi",
-                routeTemplate: "api/{controller}/{action}",
+                routeTemplate: "{controller}/{action}",
                 defaults: new { id = RouteParameter.Optional }
             );
         }
