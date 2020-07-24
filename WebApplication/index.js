@@ -5,7 +5,7 @@ var io = require('socket.io');
 
 
 observers = [];
-observers.push(new require('./event_observer')());
+observers.push(new (require('./event_observer'))());
 
 require('./observer_api')(app, observers);
 
