@@ -10,7 +10,7 @@ observers.push(new (require('./event_observer'))());
 require('./observer_api')(app, observers);
 
 app.get('/', (req, res) => { //TODO: Login feature
-    res.sendFile(__dirname + '/index.html');
+    res.sendFile(__dirname + '/public/index.html');
 });
 
 io.on('connection', (socket) => {
