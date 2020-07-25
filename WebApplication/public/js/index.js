@@ -1,15 +1,23 @@
 function startSlideShow(){
-    $.post("http://pi.phouse.local/internal/startslideshow");
+    let xhr = XMLHttpRequest();
+    xhr,open('POST', "http://pi.phouse.local/internal/startslideshow", true);
+    xhr.send();
 }
 
 function endSlideShow(){
-    $.post("http://pi.phouse.local/internal/endslideshow");
+    let xhr = XMLHttpRequest();
+    xhr,open('POST', "http://pi.phouse.local/internal/endslideshow", true);
+    xhr.send();
 }
 
 function nextSlide(){
-    $.post("http://pi.phouse.local/internal/nextslide");
+    let xhr = XMLHttpRequest();
+    xhr,open('POST', "http://pi.phouse.local/internal/nextslide", true);
+    xhr.send();
 }
 
 function previousSlide(){
-    $.post("http://pi.phouse.local/internal/previousslide");
+    let xhr = XMLHttpRequest();
+    xhr,open('POST', "http://pi.phouse.local/internal/previousslide", true);
+    xhr.send();
 }
