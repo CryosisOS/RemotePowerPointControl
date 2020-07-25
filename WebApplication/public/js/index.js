@@ -1,17 +1,21 @@
-var API = require("../../powerpoint_api");
+import { startSlideShow as _startSlideShow, 
+    endSlideShow as _endSlideShow, 
+    nextSlide as _nextSlide, 
+    previousSlide as _previousSlide 
+} from "../../powerpoint_api";
 
 function startSlideShow(){
-    API.startSlideShow();
+    _startSlideShow();
 }
 
 function endSlideShow(){
-    API.endSlideShow();
+    _endSlideShow();
 }
 
 function nextSlide(){
-    API.nextSlide();
+    _nextSlide();
 }
 
 function previousSlide(){
-    API.previousSlide();
+    _previousSlide();
 }
