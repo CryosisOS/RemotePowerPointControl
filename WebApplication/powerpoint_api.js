@@ -1,5 +1,5 @@
 var axios = require('axios');
-const BASE_URL = "http://desk.phouse.local/powerpointcontrol" 
+const BASE_URL = "http://desk.phouse.local:80/powerpointcontrol" 
 
 exports.startSlideShow = function(){
     url = `${BASE_URL}/EndPoints/StartSlideShow`;
