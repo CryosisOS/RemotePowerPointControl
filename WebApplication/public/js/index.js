@@ -1,21 +1,15 @@
-import { startSlideShow as _startSlideShow, 
-    endSlideShow as _endSlideShow, 
-    nextSlide as _nextSlide, 
-    previousSlide as _previousSlide 
-} from "../../powerpoint_api";
-
 function startSlideShow(){
-    _startSlideShow();
+    $.post("http://pi.phouse.local/internal/startslideshow");
 }
 
 function endSlideShow(){
-    _endSlideShow();
+    $.post("http://pi.phouse.local/internal/endslideshow");
 }
 
 function nextSlide(){
-    _nextSlide();
+    $.post("http://pi.phouse.local/internal/nextslide");
 }
 
 function previousSlide(){
-    _previousSlide();
+    $.post("http://pi.phouse.local/internal/previousslide");
 }

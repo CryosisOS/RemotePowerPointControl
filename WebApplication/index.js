@@ -11,11 +11,16 @@ app.use("/js/", express.static(path.join(__dirname, '/public/js/')));
 observers = [];
 observers.push(new (require('./event_observer'))());
 
-require('./observer_api')(app, observers);
 
+/// REGISTER API's
+require('./observer_api')(app, observers);
+require('./internal_api')(app);
+
+/// REGISTER ROUTES
 app.get('/', (req, res) => { //TODO: Login feature
     res.sendFile(__dirname + '/public/index.html');
 });
+
 
 io.on('connection', (socket) => {
     console.log("User Connected");
