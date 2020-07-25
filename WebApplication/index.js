@@ -3,6 +3,9 @@ var app = express();
 var http = require('http').Server(app);
 var io = require('socket.io')(http);
 
+/// Declaring static assets
+app.use('/js/', express.static('/public/js/'))
+
 
 observers = [];
 observers.push(new (require('./event_observer'))());
