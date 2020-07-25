@@ -1,7 +1,7 @@
 var axios = require('axios');
 const BASE_URL = "http://desk.phouse.local/powerpointcontrol" 
 
-export function startSlideShow(){
+exports.startSlideShow = function(){
     url = `${BASE_URL}/EndPoints/StartSlideShow`;
     axios.post(url)
     .then((response)=>{
@@ -12,7 +12,7 @@ export function startSlideShow(){
     });
 }
 
-export function endSlideShow(){
+exports.endSlideShow = function(){
     url = `${BASE_URL}/EndPoints/EndSlideShow`;
     axios.post(url)
     .then((response)=>{
@@ -23,7 +23,7 @@ export function endSlideShow(){
     });
 }
 
-export function nextSlide(){
+exports.nextSlide = function(){
     url = `${BASE_URL}/EndPoints/NextSlide`;
     axios.post(url)
     .then((response)=>{
@@ -34,7 +34,7 @@ export function nextSlide(){
     });
 }
 
-export function previousSlide(){
+exports.previousSlide = function(){
     url = `${BASE_URL}/EndPoints/PreviousSlide`;
     axios.post(url)
     .then((response)=>{
