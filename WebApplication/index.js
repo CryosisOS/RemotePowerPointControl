@@ -4,6 +4,7 @@ var http = require('http').Server(app);
 var io = require('socket.io')(http);
 
 /// Declaring static assets
+const path = require('path');
 app.use("/js/", express.static(path.join(__dirname, '/public/js/')));
 
 
