@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ControlActivity">
+
+    <ImageView
+        android:id="@+id/currentSlidePreview_imageView"
+        android:layout_width="237dp"
+        android:layout_height="135dp"
+        android:layout_marginStart="244dp"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/no_slide_preview"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/previousSlidePreview_imageView"
+        android:layout_width="172dp"
+        android:layout_height="99dp"
+        android:layout_marginTop="76dp"
+        android:layout_marginEnd="28dp"
+        android:src="@drawable/no_slide_preview"
+        app:layout_constraintEnd_toStartOf="@+id/currentSlidePreview_imageView"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/nextSlidePreview_imageView"
+        android:layout_width="172dp"
+        android:layout_height="99dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="68dp"
+        android:src="@drawable/no_slide_preview"
+        app:layout_constraintStart_toEndOf="@+id/currentSlidePreview_imageView"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/previousSlide_button"
+        android:layout_width="172dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="28dp"
+        android:text="@string/previous"
+        android:textSize="18sp"
+        android:onClick="previousSlidePressed"
+        app:layout_constraintEnd_toStartOf="@+id/currentSlidePreview_imageView"
+        app:layout_constraintTop_toBottomOf="@+id/previousSlidePreview_imageView" />
+
+    <Button
+        android:id="@+id/nextSlide_button"
+        android:layout_width="172dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/next"
+        android:textSize="18sp"
+        android:onClick="nextSlidePressed"
+        app:layout_constraintStart_toEndOf="@+id/currentSlidePreview_imageView"
+        app:layout_constraintTop_toBottomOf="@+id/nextSlidePreview_imageView" />
+
+    <Button
+        android:id="@+id/blackOut_button"
+        android:layout_width="220dp"
+        android:layout_height="95dp"
+        android:layout_marginStart="252dp"
+        android:layout_marginTop="56dp"
+        android:text="@string/black_out"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:onClick="blackOutPressed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/currentSlidePreview_imageView" />
+
+    <Button
+        android:id="@+id/endSlideShow_button"
+        android:layout_width="185dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="160dp"
+        android:text="@string/end_slide_show"
+        android:textSize="18sp"
+        android:onClick="endSlideShowPressed"
+        app:layout_constraintStart_toEndOf="@+id/blackOut_button"
+        app:layout_constraintTop_toBottomOf="@+id/currentSlidePreview_imageView" />
+
+    <Button
+        android:id="@+id/startSlideShow_button"
+        android:layout_width="185dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="160dp"
+        android:layout_marginEnd="20dp"
+        android:text="@string/start_slide_show"
+        android:textSize="18sp"
+        android:onClick="startSlideShowPressed"
+        app:layout_constraintEnd_toStartOf="@+id/blackOut_button"
+        app:layout_constraintTop_toBottomOf="@+id/currentSlidePreview_imageView" />
+</androidx.constraintlayout.widget.ConstraintLayout>

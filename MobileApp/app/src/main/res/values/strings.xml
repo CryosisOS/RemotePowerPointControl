@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">MobilePowerPointControl</string>
+    <string name="start_slide_show">START SLIDE SHOW</string>
+    <string name="end_slide_show">END SLIDE SHOW</string>
+    <string name="black_out">BLACK OUT</string>
+    <string name="previous">PREVIOUS</string>
+    <string name="next">NEXT</string>
 </resources>
