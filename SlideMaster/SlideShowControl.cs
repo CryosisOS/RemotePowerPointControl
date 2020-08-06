@@ -48,5 +48,15 @@ namespace PowerPointHook {
                 return false;
             }
         }
+
+        public static bool BlackOut(ref PowerPoint.Presentation presentation) {
+            try {
+                presentation.SlideShowWindow.View.State = PpSlideShowState.ppSlideShowBlackScreen;
+                return true;
+            }
+            catch {
+                return false;
+            }
+        }
     }
 }

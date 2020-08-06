@@ -25,8 +25,6 @@ app.get('/', (req, res) => { //TODO: Login feature
 io.on('connection', (socket) => {
     console.log("User Connected");
     clients.push(socket);
-    
-    
 
     socket.on('disconnect', () => {
         console.log("User Disconnected")

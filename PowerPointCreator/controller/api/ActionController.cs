@@ -28,5 +28,9 @@ namespace PowerPointCreator
         {
             SlideShowControl.PreviousSlide(ref Program.REF_PRESENTATION);
         }
+
+        public void BlackOut() {
+            SlideShowControl.BlackOut(ref Program.REF_PRESENTATION);
+        }
     }
 }

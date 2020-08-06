@@ -54,5 +54,16 @@ namespace WebServer.Controllers
             else
                 return NotFound();
         }
+
+        //BlackOut
+        public IHttpActionResult BlackOut() {
+            RestClient client = new RestClient(WebApiApplication.BASE_URL);
+            RestRequest request = new RestRequest("Action/PreviousSlide");
+            IRestResponse response = client.Post(request);
+            if (response.StatusCode == System.Net.HttpStatusCode.OK)
+                return Ok();
+            else
+                return NotFound();
+        }
     }
 }

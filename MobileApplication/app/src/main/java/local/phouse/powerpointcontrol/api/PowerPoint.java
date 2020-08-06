@@ -108,6 +108,30 @@ public class PowerPoint {
         t.start();
     }
 
+    public void blackOut() {
+        final String local_url = this.url;
+        final String endpoint = "/internal/blackout";
+        Thread t = new Thread(new Runnable() {
+            @Override
+            public void run() {
+                HttpURLConnection connection = null;
+                try{
+                    URL url = new URL(local_url+endpoint);
+                    connection = (HttpURLConnection) url.openConnection();
+                    connection.setRequestMethod("POST");
+                    int code = connection.getResponseCode();
+                } catch (IOException ex){
+                    Log.d("INFO", ex.getMessage());
+                } finally {
+                    if (connection != null){
+                        connection.disconnect();
+                    }
+                }
+            }
+        });
+        t.start();
+    }
+
 
     public static class Result{
         private boolean res = false;

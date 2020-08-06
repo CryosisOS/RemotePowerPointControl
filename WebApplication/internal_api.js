@@ -17,4 +17,8 @@ module.exports = function define_end_points(app){
     app.post('/internal/previousslide', (req, res) => {
         API.previousSlide();
     });
+
+    app.post('/internal/blackout', (req, res) => {
+        API.blackOut();
+    });
 }

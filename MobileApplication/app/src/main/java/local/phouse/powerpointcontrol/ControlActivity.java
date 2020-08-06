@@ -67,7 +67,7 @@ public class ControlActivity extends Activity {
     }
 
     public void blackOutPressed(View view){
-
+        this.API.blackOut();
     }
 
     private void showServerUnreachableAlert(final View view){

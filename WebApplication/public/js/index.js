@@ -1,6 +1,6 @@
 function startSlideShow(){
     let xhr = new XMLHttpRequest();
-    xhr.open('POST', "http://pi.phouse.local/internal/startslideshow", true);
+    xhr.open('POST', "http://10.0.0.9/internal/startslideshow", true);
     xhr.send();
     xhr.addEventListener("readystatechange", processResponse, false);
 
