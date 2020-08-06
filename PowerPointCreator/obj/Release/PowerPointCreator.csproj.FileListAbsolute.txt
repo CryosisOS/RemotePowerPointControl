@@ -32,3 +32,5 @@ S:\Programming\Personal\Projects\Church\PresentationEndPoint\PowerPointCreator\o
 S:\Programming\Personal\Projects\Church\PresentationEndPoint\PowerPointCreator\obj\Release\PowerPointCreator.csproj.CopyComplete
 S:\Programming\Personal\Projects\Church\PresentationEndPoint\PowerPointCreator\obj\Release\PowerPointCreator.exe
 S:\Programming\Personal\Projects\Church\PresentationEndPoint\PowerPointCreator\obj\Release\PowerPointCreator.pdb
+S:\Programming\Personal\Projects\Church\PresentationEndPoint\PowerPointCreator\bin\Release\RestSharp.dll
+S:\Programming\Personal\Projects\Church\PresentationEndPoint\PowerPointCreator\bin\Release\RestSharp.xml

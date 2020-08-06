@@ -54,23 +54,13 @@ namespace WebServer.Controllers
             }
         }
 
-        public void NetworkEvent_NextSlide()
+        public void NetworkEvent_SlideChange()
         {
             foreach (string ip in WebApiApplication.SUBSCRIBERS) {
                 RestClient client = new RestClient("http://" + ip + "/");
-                RestRequest request = new RestRequest("event/nextslide");
+                RestRequest request = new RestRequest("event/slidechange");
                 IRestResponse response = client.Post(request);
             }
         }
-
-        public void NetworkEvent_PreviousSlide()
-        {
-            foreach (string ip in WebApiApplication.SUBSCRIBERS) {
-                RestClient client = new RestClient("http://" + ip + "/");
-                RestRequest request = new RestRequest("event/previousslide");
-                IRestResponse response = client.Post(request);
-            }
-        }
-
     }
 }

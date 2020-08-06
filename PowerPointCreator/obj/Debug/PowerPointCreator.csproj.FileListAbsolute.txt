@@ -66,3 +66,5 @@ C:\Users\Sound Desk Admin\Source\Repos\RemotePowerPointControl\PowerPointCreator
 C:\Users\Sound Desk Admin\Source\Repos\RemotePowerPointControl\PowerPointCreator\obj\Debug\PowerPointCreator.csproj.CopyComplete
 C:\Users\Sound Desk Admin\Source\Repos\RemotePowerPointControl\PowerPointCreator\obj\Debug\PowerPointCreator.exe
 C:\Users\Sound Desk Admin\Source\Repos\RemotePowerPointControl\PowerPointCreator\obj\Debug\PowerPointCreator.pdb
+S:\Programming\Personal\Projects\Church\PresentationEndPoint\PowerPointCreator\bin\Debug\RestSharp.dll
+S:\Programming\Personal\Projects\Church\PresentationEndPoint\PowerPointCreator\bin\Debug\RestSharp.xml

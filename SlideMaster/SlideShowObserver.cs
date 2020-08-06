@@ -1,4 +1,5 @@
 ﻿using Microsoft.Office.Interop.PowerPoint;
+using RestSharp;
 using System.Diagnostics;
 
 namespace PowerPointHook {
@@ -7,12 +8,16 @@ namespace PowerPointHook {
         public Slide CurrentSlide { get; private set; }
         public Slide NextSlide { get; private set; }
 
+        private string broadcast_url { get; set; }
+
         private int count;
         //Instantiate Observer methods
-        public SlideShowObserver(ref Application application, ref Presentation presentation) {
+        public SlideShowObserver(ref Application application, ref Presentation presentation, string BROADCAST_URL) {
             count = presentation.Slides.Count;
             application.SlideShowBegin += Event_BeginSlideShow;
+            application.SlideShowEnd += Event_EndSlideShow;
             application.SlideShowNextSlide += Event_NextSlide;
+            this.broadcast_url = BROADCAST_URL;
         }
 
         /// <summary>
@@ -22,6 +27,20 @@ namespace PowerPointHook {
         private void Event_BeginSlideShow(SlideShowWindow window) {
             count = window.Presentation.Slides.Count;
             Debug.WriteLine("Event: Begin Slide Show has occured");
+            RestClient client = new RestClient(this.broadcast_url);
+            RestRequest request = new RestRequest("Broadcast/NetworkEvent_SlideShowStart");
+            IRestResponse response = client.Post(request);
+        }
+
+        /// <summary>
+        /// Occures whenever a presentation ends
+        /// </summary>
+        /// <param name="window"></param>
+        private void Event_EndSlideShow(Presentation presentation) {
+            Debug.WriteLine("Event: End Slide Show has occured");
+            RestClient client = new RestClient(this.broadcast_url);
+            RestRequest request = new RestRequest("Broadcast/NetworkEvent_SlideShowEnd");
+            IRestResponse response = client.Post(request);
         }
 
         /// <summary>
@@ -36,7 +55,9 @@ namespace PowerPointHook {
             this.PreviousSlide = (currentIndex == 1) ? null : window.Presentation.Slides[prevIndex];
             this.CurrentSlide = window.Presentation.Slides[currentIndex];
             this.NextSlide = (currentIndex == count) ? null : window.Presentation.Slides[nextIndex];
-            Debug.WriteLine("Event: Next Slide Show has occured");
+            RestClient client = new RestClient(this.broadcast_url);
+            RestRequest request = new RestRequest("Broadcast/NetworkEvent_SlideChange");
+            IRestResponse response = client.Post(request);
         }
     }
 }

@@ -6,3 +6,6 @@ S:\Programming\Personal\Projects\Church\PresentationEndPoint\SlideMaster\obj\Deb
 S:\Programming\Personal\Projects\Church\PresentationEndPoint\SlideMaster\obj\Debug\PowerPointHook.csproj.CoreCompileInputs.cache
 S:\Programming\Personal\Projects\Church\PresentationEndPoint\SlideMaster\obj\Debug\PowerPointHook.dll
 S:\Programming\Personal\Projects\Church\PresentationEndPoint\SlideMaster\obj\Debug\PowerPointHook.pdb
+S:\Programming\Personal\Projects\Church\PresentationEndPoint\SlideMaster\bin\Debug\RestSharp.dll
+S:\Programming\Personal\Projects\Church\PresentationEndPoint\SlideMaster\bin\Debug\RestSharp.xml
+S:\Programming\Personal\Projects\Church\PresentationEndPoint\SlideMaster\obj\Debug\PowerPointHook.csproj.CopyComplete

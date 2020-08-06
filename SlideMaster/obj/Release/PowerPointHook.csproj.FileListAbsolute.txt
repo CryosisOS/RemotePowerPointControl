@@ -14,3 +14,6 @@ C:\Users\Sound Desk Admin\Source\Repos\RemotePowerPointControl\SlideMaster\obj\R
 C:\Users\Sound Desk Admin\Source\Repos\RemotePowerPointControl\SlideMaster\obj\Release\PowerPointHook.csproj.CoreCompileInputs.cache
 C:\Users\Sound Desk Admin\Source\Repos\RemotePowerPointControl\SlideMaster\obj\Release\PowerPointHook.dll
 C:\Users\Sound Desk Admin\Source\Repos\RemotePowerPointControl\SlideMaster\obj\Release\PowerPointHook.pdb
+S:\Programming\Personal\Projects\Church\PresentationEndPoint\SlideMaster\bin\Release\RestSharp.dll
+S:\Programming\Personal\Projects\Church\PresentationEndPoint\SlideMaster\bin\Release\RestSharp.xml
+S:\Programming\Personal\Projects\Church\PresentationEndPoint\SlideMaster\obj\Release\PowerPointHook.csproj.CopyComplete

@@ -25,7 +25,7 @@ namespace PowerPointCreator {
                     //Open PowerPoint with the existing presentation
                     Program.REF_APPLICATION = PowerPointControl.OpenPowerPointApplication();
                     Program.REF_PRESENTATION = PowerPointControl.StartExistingPresentation(ref Program.REF_APPLICATION, fileChooser.FileName);
-                    SlideShowObserver observer = new SlideShowObserver(ref Program.REF_APPLICATION, ref Program.REF_PRESENTATION);
+                    SlideShowObserver observer = new SlideShowObserver(ref Program.REF_APPLICATION, ref Program.REF_PRESENTATION, "http://localhost/powerpointcontrol");
                     //Start API
                     API.Register();
                     //Hide window

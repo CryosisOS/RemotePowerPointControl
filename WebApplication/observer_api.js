@@ -17,19 +17,10 @@ module.exports = function define_end_points(app, observers){
         });
     });
 
-    app.post('/event/nextslide', (req, res) => {
+    app.post('/event/slidechange', (req, res) => {
         observers.forEach(observer => {
             observer.notify({
-                "event":"NEXT_SLIDE"
-            });
-        });
-    });
-
-
-    app.post('/event/previousslide', (req, res) => {
-        observers.forEach(observer => {
-            observer.notify({
-                "event":"PREVIOUS_SLIDE"
+                "event":"SLIDE_CHANGE"
             });
         });
     });
