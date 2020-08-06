@@ -1,4 +1,6 @@
-﻿using System.Configuration;
+﻿using System.Collections;
+using System.Collections.Generic;
+using System.Configuration;
 using System.Web.Http;
 using System.Web.Mvc;
 using System.Web.Optimization;
@@ -10,6 +12,7 @@ namespace WebServer
     {
         //WebServer CONSTANTS
         public static readonly string BASE_URL = "http://localhost:18200/api/";
+        public static readonly List<string> SUBSCRIBERS = new List<string>();
 
         protected void Application_Start()
         {
