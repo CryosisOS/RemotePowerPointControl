@@ -13,7 +13,7 @@ function startSlideShow(){
 
 function endSlideShow(){
     let xhr = new XMLHttpRequest();
-    xhr.open('POST', "http://pi.phouse.local/internal/endslideshow", true);
+    xhr.open('POST', "http://10.0.0.9/internal/endslideshow", true);
     xhr.send();
     xhr.addEventListener("readystatechange", processResponse, false);
 
@@ -26,7 +26,7 @@ function endSlideShow(){
 
 function nextSlide(){
     let xhr = new XMLHttpRequest();
-    xhr.open('POST', "http://pi.phouse.local/internal/nextslide", true);
+    xhr.open('POST', "http://10.0.0.9/internal/nextslide", true);
     xhr.send();
     xhr.addEventListener("readystatechange", processResponse, false);
 
@@ -39,7 +39,7 @@ function nextSlide(){
 
 function previousSlide(){
     let xhr = new XMLHttpRequest();
-    xhr.open('POST', "http://pi.phouse.local/internal/previousslide", true);
+    xhr.open('POST', "http://10.0.0.9/internal/previousslide", true);
     xhr.send();
     xhr.addEventListener("readystatechange", processResponse, false);
 
