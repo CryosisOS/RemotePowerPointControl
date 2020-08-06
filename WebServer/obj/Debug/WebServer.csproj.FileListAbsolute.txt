@@ -54,7 +54,6 @@ S:\Programming\Personal\Projects\Church\PresentationEndPoint\WebServer\bin\Antlr
 S:\Programming\Personal\Projects\Church\PresentationEndPoint\WebServer\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 S:\Programming\Personal\Projects\Church\PresentationEndPoint\WebServer\bin\Microsoft.Web.Infrastructure.dll
 S:\Programming\Personal\Projects\Church\PresentationEndPoint\WebServer\bin\Newtonsoft.Json.dll
-S:\Programming\Personal\Projects\Church\PresentationEndPoint\WebServer\bin\SlideMaster.dll
 S:\Programming\Personal\Projects\Church\PresentationEndPoint\WebServer\bin\System.Net.Http.Formatting.dll
 S:\Programming\Personal\Projects\Church\PresentationEndPoint\WebServer\bin\System.Web.Helpers.dll
 S:\Programming\Personal\Projects\Church\PresentationEndPoint\WebServer\bin\System.Web.Http.dll
@@ -66,8 +65,6 @@ S:\Programming\Personal\Projects\Church\PresentationEndPoint\WebServer\bin\Syste
 S:\Programming\Personal\Projects\Church\PresentationEndPoint\WebServer\bin\System.Web.WebPages.dll
 S:\Programming\Personal\Projects\Church\PresentationEndPoint\WebServer\bin\System.Web.WebPages.Razor.dll
 S:\Programming\Personal\Projects\Church\PresentationEndPoint\WebServer\bin\WebGrease.dll
-S:\Programming\Personal\Projects\Church\PresentationEndPoint\WebServer\bin\SlideMaster.pdb
-S:\Programming\Personal\Projects\Church\PresentationEndPoint\WebServer\bin\SlideMaster.dll.config
 S:\Programming\Personal\Projects\Church\PresentationEndPoint\WebServer\bin\Newtonsoft.Json.xml
 S:\Programming\Personal\Projects\Church\PresentationEndPoint\WebServer\bin\System.Net.Http.Formatting.xml
 S:\Programming\Personal\Projects\Church\PresentationEndPoint\WebServer\bin\System.Web.Helpers.xml
@@ -178,3 +175,8 @@ C:\Users\Sound Desk Admin\Source\Repos\RemotePowerPointControl\WebServer\bin\Res
 C:\Users\Sound Desk Admin\Source\Repos\RemotePowerPointControl\WebServer\bin\PowerPointHook.pdb
 C:\Users\Sound Desk Admin\Source\Repos\RemotePowerPointControl\WebServer\bin\PowerPointHook.dll.config
 C:\Users\Sound Desk Admin\Source\Repos\RemotePowerPointControl\WebServer\bin\RestSharp.xml
+S:\Programming\Personal\Projects\Church\PresentationEndPoint\WebServer\bin\PowerPointHook.dll
+S:\Programming\Personal\Projects\Church\PresentationEndPoint\WebServer\bin\RestSharp.dll
+S:\Programming\Personal\Projects\Church\PresentationEndPoint\WebServer\bin\PowerPointHook.pdb
+S:\Programming\Personal\Projects\Church\PresentationEndPoint\WebServer\bin\PowerPointHook.dll.config
+S:\Programming\Personal\Projects\Church\PresentationEndPoint\WebServer\bin\RestSharp.xml

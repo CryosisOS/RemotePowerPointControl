@@ -58,7 +58,7 @@ namespace WebServer.Controllers
         //BlackOut
         public IHttpActionResult BlackOut() {
             RestClient client = new RestClient(WebApiApplication.BASE_URL);
-            RestRequest request = new RestRequest("Action/PreviousSlide");
+            RestRequest request = new RestRequest("Action/BlackOut");
             IRestResponse response = client.Post(request);
             if (response.StatusCode == System.Net.HttpStatusCode.OK)
                 return Ok();

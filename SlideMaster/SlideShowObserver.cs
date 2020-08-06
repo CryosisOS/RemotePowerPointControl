@@ -1,4 +1,5 @@
 ﻿using Microsoft.Office.Interop.PowerPoint;
+using System.Diagnostics;
 
 namespace PowerPointHook {
     public class SlideShowObserver {
@@ -20,6 +21,7 @@ namespace PowerPointHook {
         /// <param name="window"></param>
         private void Event_BeginSlideShow(SlideShowWindow window) {
             count = window.Presentation.Slides.Count;
+            Debug.WriteLine("Event: Begin Slide Show has occured");
         }
 
         /// <summary>
@@ -34,6 +36,7 @@ namespace PowerPointHook {
             this.PreviousSlide = (currentIndex == 1) ? null : window.Presentation.Slides[prevIndex];
             this.CurrentSlide = window.Presentation.Slides[currentIndex];
             this.NextSlide = (currentIndex == count) ? null : window.Presentation.Slides[nextIndex];
+            Debug.WriteLine("Event: Next Slide Show has occured");
         }
     }
 }
