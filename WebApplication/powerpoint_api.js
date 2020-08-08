@@ -7,7 +7,7 @@ exports.startSlideShow = function(){
     .then((response)=>{
         console.log(`Request - StartSlideShow: ${response.status}`);
     }, (error) =>{
-        console.log(error);
+        //Do nothing
     });
 }
 
@@ -17,7 +17,7 @@ exports.endSlideShow = function(){
     .then((response)=>{
         console.log(`Request - EndSlideShow: ${response.status}`);
     }, (error) =>{
-        console.log(error);
+        //Do nothing
     });
 }
 
@@ -27,7 +27,7 @@ exports.nextSlide = function(){
     .then((response)=>{
         console.log(`Request - NextSlide: ${response.status}`);
     }, (error) =>{
-        console.log(error);
+        //Do nothing
     });
 }
 
@@ -37,7 +37,7 @@ exports.previousSlide = function(){
     .then((response)=>{
         console.log(`Request - PreviousSlide: ${response.status}`);
     }, (error) =>{
-        console.log(error);
+        //Do nothing
     });
 }
 
@@ -47,6 +47,6 @@ exports.blackOut = function(){
     .then((response)=>{
         console.log(`Request - BlackOut: ${response.status}`);
     }, (error) =>{
-        console.log(error);
+        //Do nothing
     });
 }

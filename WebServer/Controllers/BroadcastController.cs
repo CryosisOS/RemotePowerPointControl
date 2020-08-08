@@ -5,6 +5,7 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.ServiceModel.Channels;
+using System.Threading;
 using System.Web;
 using System.Web.Http;
 
@@ -39,27 +40,36 @@ namespace WebServer.Controllers
         public void NetworkEvent_SlideShowStart()
         {
             foreach(string ip in WebApiApplication.SUBSCRIBERS) {
-                RestClient client = new RestClient("http://"+ip+"/");
-                RestRequest request = new RestRequest("event/startslideshow");
-                IRestResponse response = client.Post(request);
+                Thread thread = new Thread(() => {
+                    RestClient client = new RestClient("http://" + ip + "/");
+                    RestRequest request = new RestRequest("event/startslideshow");
+                    IRestResponse response = client.Post(request);
+                });
+                thread.Start();
             }
         }
 
         public void NetworkEvent_SlideShowEnd()
         {
             foreach (string ip in WebApiApplication.SUBSCRIBERS) {
-                RestClient client = new RestClient("http://" + ip + "/");
-                RestRequest request = new RestRequest("event/endslideshow");
-                IRestResponse response = client.Post(request);
+                Thread thread = new Thread(() => {
+                    RestClient client = new RestClient("http://" + ip + "/");
+                    RestRequest request = new RestRequest("event/endslideshow");
+                    IRestResponse response = client.Post(request);
+                });
+                thread.Start();
             }
         }
 
         public void NetworkEvent_SlideChange()
         {
             foreach (string ip in WebApiApplication.SUBSCRIBERS) {
-                RestClient client = new RestClient("http://" + ip + "/");
-                RestRequest request = new RestRequest("event/slidechange");
-                IRestResponse response = client.Post(request);
+                Thread thread = new Thread(() => {
+                    RestClient client = new RestClient("http://" + ip + "/");
+                    RestRequest request = new RestRequest("event/slidechange");
+                    IRestResponse response = client.Post(request);
+                });
+                thread.Start();
             }
         }
     }

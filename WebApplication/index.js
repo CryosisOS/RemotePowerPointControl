@@ -3,6 +3,8 @@ var app = express();
 var http = require('http').Server(app);
 var io = require('socket.io')(http);
 
+exports.io = io
+
 /// Declaring static assets
 const path = require('path');
 app.use("/js/", express.static(path.join(__dirname, '/public/js/')));
@@ -23,6 +25,7 @@ app.get('/', (req, res) => { //TODO: Login feature
 
 
 io.on('connection', (socket) => {
+    exports.socket = socket
     console.log("User Connected");
     clients.push(socket);
 
